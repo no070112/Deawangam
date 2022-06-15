@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "SCDream1";
+  font-weight: 100;
+  src: url("./font/SCDream1.otf");
+}
+@font-face {
+  font-family: "SCDream2";
+  font-weight: 200;
+  src: url("./font/SCDream2.otf");
+}
+@font-face {
+  font-family: "SCDream3";
+  font-weight: 300;
+  src: url("./font/SCDream3.otf");
+}
+@font-face {
+  font-family: "SCDream4";
+  font-weight: 400;
+  src: url("./font/SCDream4.otf");
+}
+@font-face {
+  font-family: "SCDream5";
+  font-weight: 500;
+  src: url("./font/SCDream5.otf");
+}
+@font-face {
+  font-family: "SCDream6";
+  font-weight: 600;
+  src: url("./font/SCDream6.otf");
+}
+@font-face {
+  font-family: "SCDream7";
+  font-weight: 700;
+  src: url("./font/SCDream7.otf");
+}
+@font-face {
+  font-family: "SCDream8";
+  font-weight: 800;
+  src: url("./font/SCDream8.otf");
+}
+@font-face {
+  font-family: "SCDream9";
+  font-weight: 900;
+  src: url("./font/SCDream9.otf");
+}
+
+* {
+  margin: 0;
+  height: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: white;
+}
+
+.nav .logo {
+  background-image: url("./images/logo1.png");
+  width: 84px;
+  height: 42px;
+}
+
+.nav .list {
+  margin-top: 8px;
+}
+
+.nav .list span {
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: "SCDream3";
+  color: gray;
+  text-decoration: none ; 
+}
+a{
+	text-decoration: none ; 
+}
+
+.blank {
+  width: 100%;
+  height: 80px;
+}
+
+.sec1 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.sec1 img {
+  width: 100vw;
+  height: 535px;
+  object-fit: cover;
+}
+
+.sec1 .downscroll {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec1 .downscroll span {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "SCDream1";
+  margin-bottom: 24px;
+  margin-right: 30px;
+  color: gray;
+}
+
+/* .sec1 .down {
+  width: 32px;
+  height: 32px;
+  color: gray;
+} */
+
+.sec2 {
+  width: 100vw;
+  height: 855px;
+}
+
+.sec2 img {
+  width: 100vw;
+  height: 855px;
+  object-fit: cover;
+}
+.sec3 {
+  width: 100vw;
+  height: 855px;
+}
+
+.sec3 img {
+  width: 100vw;
+  height: 855px;
+  object-fit: cover;
+}
+.sec4 {
+  width: 100vw;
+  height: 855px;
+}
+
+.sec4 img {
+  width: 100vw;
+  height: 855px;
+  object-fit: cover;
+}
+
+.sec5 .god {
+   font-size: 14px;
+  font-family: "SCDream1";
+  margin-bottom: 24px;
+  margin-right: 30px;
+  color: gray;
+  text-align: center; 
+	
+}
